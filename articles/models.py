@@ -26,12 +26,12 @@ class Article(BaseModel):
         verbose_name = "Sous-URL de l'article",
         help_text = "Ce champ sera présent dans l'URL de l'article pour aider le référencement et donner du sens à l'URL.",
     )
-    is_display = models.TextField(
+    is_display = models.BooleanField(
         verbose_name = "Article visible ?",
         help_text = "Définit si l'article doit être consultable",
         default = True,
     )
-    is_index = models.TextField(
+    is_index = models.BooleanField(
         verbose_name = "Article indéxé ?",
         help_text = "Définit si l'article doit être indexé et affiché sur la liste des articles",
         default = True,
