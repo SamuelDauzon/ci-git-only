@@ -127,3 +127,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "simpleblog", "static"),
 ]
 
+
+# STATIC_ROOT = "/home/users/webapps/static_simpleblog/"
+
+
