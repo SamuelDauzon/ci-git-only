@@ -1,0 +1,4 @@
+$HOME/webapps/simpleblog/venv_simpleblog/bin/pip install -r $HOME/webapps/simpleblog/simpleblog/requirements.txt
+$HOME/webapps/simpleblog/venv_simpleblog/bin/python $HOME/webapps/simpleblog/simpleblog/manage.py migrate
+$HOME/webapps/simpleblog/venv_simpleblog/bin/python $HOME/webapps/simpleblog/simpleblog/manage.py collectstatic
+$HOME/webapps/simpleblog/apache2/bin/restart
